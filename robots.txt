@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://ho-jayega-two.vercel.app/sitemap.xml
