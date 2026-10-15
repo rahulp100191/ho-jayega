@@ -25,4 +25,4 @@ Contact links and the consultation destination are in `index.html` and `app.js`.
 - `assets/dining.jpg`: https://images.unsplash.com/photo-1414235077428-338989a2e8c0 — illustrative dining photograph.
 - `assets/guwahati.jpg`: [Sunset from the bank of Brahmaputra](https://commons.wikimedia.org/wiki/File:Sunset_from_the_bank_of_Brahmaputra.jpg) by Srabanti.basak, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized/compressed; displayed with a responsive crop and reduced saturation. This photograph and its adaptations retain that license.
 
-Stock imagery is not represented as HJ clients or HJ-managed properties. In-page photography credits describe provenance. Google Fonts supplies Cormorant Garamond and DM Sans, with local serif/sans-serif fallbacks.
+Stock imagery is not represented as HJ clients or HJ-managed properties. In-page photography credits describe provenance. Google Fonts supplies Manrope, with Arial and system sans-serif fallbacks.
