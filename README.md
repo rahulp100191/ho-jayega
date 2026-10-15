@@ -1,6 +1,6 @@
 # Ho Jayega
 
-Private home, family and lifestyle concierge website for Guwahati, Assam.
+Private life management for CXOs, business owners, professionals, families, NRIs, senior households, homeowners and relocating families in Guwahati, Assam.
 
 ## Run locally
 
@@ -25,4 +25,14 @@ Contact links and the consultation destination are in `index.html` and `app.js`.
 - `assets/dining.jpg`: https://images.unsplash.com/photo-1414235077428-338989a2e8c0 — illustrative dining photograph.
 - `assets/guwahati.jpg`: [Sunset from the bank of Brahmaputra](https://commons.wikimedia.org/wiki/File:Sunset_from_the_bank_of_Brahmaputra.jpg) by Srabanti.basak, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized/compressed; displayed with a responsive crop and reduced saturation. This photograph and its adaptations retain that license.
 
-Stock imagery is not represented as HJ clients or HJ-managed properties. In-page photography credits describe provenance. Google Fonts supplies Manrope, with Arial and system sans-serif fallbacks.
+Stock imagery is not represented as HJ clients or HJ-managed properties. In-page photography credits describe provenance. Google Fonts supplies Plus Jakarta Sans and Manrope, with Arial and system sans-serif fallbacks.
+
+
+## Website experience
+
+- Six audience panels explain support for CXOs, business owners, professionals/families, NRIs, senior households and property owners/relocating families.
+- Ten image-free service accordions can be filtered by home/property, family/household and personal/lifestyle.
+- Four stages explain discovery, the dedicated manager, WhatsApp requests and closure.
+- Six illustrative WhatsApp conversations show executive, home, parent, event, property and travel support.
+- Tabs support arrow keys, Home and End. Scroll reveals and entry animations respect reduced-motion preferences; content stays visible without animation scripting.
+- The consultation flow remains a request through WhatsApp, with manual confirmation.
