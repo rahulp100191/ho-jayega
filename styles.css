@@ -38,6 +38,23 @@ summary,details p{font-size:14px}
 dialog h2{font-size:32px;line-height:1.25}
 legend,.form-step h3{font-size:23px;line-height:1.4;font-weight:600}
 
+/* Every service receives the same considered, image-free presentation. */
+.service-collection{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1px solid #d1d3c5;background:#d1d3c5;gap:1px}
+.concierge-service{position:relative;display:flex;flex-direction:column;align-items:flex-start;background:#f7f5ef;padding:34px 38px 30px;min-height:286px;transition:background .2s}
+.concierge-service::before{content:'';position:absolute;top:0;left:38px;right:38px;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .2s}
+.concierge-service:hover,.concierge-service:focus-within{background:#fffdf7}
+.concierge-service:hover::before,.concierge-service:focus-within::before{transform:scaleX(1)}
+.service-topline{display:flex;align-items:center;gap:17px;margin-bottom:25px;width:100%}
+.service-index{color:#876d39;font-size:13px;font-weight:600;letter-spacing:.02em;font-variant-numeric:tabular-nums}
+.service-category{color:#667168;font-size:10px;font-weight:500;letter-spacing:.11em;text-transform:uppercase;border-left:1px solid #c9cbbd;padding-left:17px}
+.concierge-service h3{font-family:'Plus Jakarta Sans',Arial,sans-serif;font-weight:500;font-size:24px;line-height:1.3;letter-spacing:-.035em;margin-bottom:14px}
+.concierge-service>p{font-size:14px;line-height:1.85;color:#617065;max-width:470px;margin-bottom:26px}
+.service-enquiry{display:flex;align-items:center;justify-content:space-between;gap:22px;width:100%;margin-top:auto;border-top:1px solid #dbded2;padding:17px 0 0;background:none;color:var(--green);font-size:12px;font-weight:600;text-align:left}
+.service-enquiry span{font-size:21px;color:#8d7441;transition:transform .2s}
+.service-enquiry:hover span{transform:translate(3px,-3px)}
+@media(max-width:800px){.concierge-service{padding:28px;min-height:310px}.concierge-service::before{left:28px;right:28px}.concierge-service h3{font-size:22px}.service-topline{gap:12px}.service-category{font-size:9px;letter-spacing:.08em;padding-left:12px}}
+@media(max-width:600px){.service-collection{grid-template-columns:1fr}.concierge-service{padding:28px 25px;min-height:0}.concierge-service::before{left:25px;right:25px}.service-topline{margin-bottom:21px}.concierge-service h3{font-size:23px}.concierge-service>p{font-size:14px;margin-bottom:23px}.service-category{font-size:9px}.service-enquiry{font-size:12px;min-height:44px}}
+
 /* Header navigation: a distinct modern face, readable size and generous spacing. */
 .header nav{gap:32px;font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:15px;font-weight:500;letter-spacing:-.015em;line-height:1.5}
 .header nav>a{padding-block:14px;white-space:nowrap;transition:color .2s}
