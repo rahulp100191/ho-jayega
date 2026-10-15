@@ -1,0 +1,4 @@
+.upstream/
+.qa/
+node_modules/
+.vercel/
