@@ -14,7 +14,7 @@ Visit http://localhost:4173. Deploy the repository root to Vercel with Framework
 
 ## Consultation flow
 
-Visitors select one or more of ten services, enter contact details and a preferred date/time with time zone, review the request, consent, and open a prepared WhatsApp message to **+91 97605 75646**. They must send the message in WhatsApp. The team manually confirms availability and call details; the site does not reserve calendar slots or store enquiries.
+Visitors request an invitation by selecting one or more of ten services, then entering Name, Number, Email, Company, Designation and City (prefilled with editable Guwahati). They open a prepared WhatsApp message containing the services and all six fields to **+91 97605 75646**, and must press Send in WhatsApp. Back navigation preserves selections and details. All service enquiry buttons use this same flow, with the relevant service preselected. The site does not store enquiries.
 
 Contact links and the consultation destination are in `index.html` and `app.js`. Service definitions are in both files. Site styling is in `styles.css`.
 
@@ -30,6 +30,8 @@ Stock imagery is not represented as HJ clients or HJ-managed properties. In-page
 
 ## Website experience
 
+- Shared typography tokens in `styles.css` use 16px body text, 15px controls, 14px supporting text and 18px lead paragraphs. Medium body weight and semibold or bold controls improve readability; decorative brand captions use their own scale.
+- Every HJ mark uses `assets/hj-monogram.svg`, including the navigation, introduction, manager updates, message previews and footer. Responsive layouts reflow rather than shrinking body text.
 - Six audience panels explain support for CXOs, business owners, professionals/families, NRIs, senior households and property owners/relocating families.
 - Ten image-free service accordions can be filtered by home/property, family/household and personal/lifestyle.
 - Four stages explain discovery, the dedicated manager, WhatsApp requests and closure.
